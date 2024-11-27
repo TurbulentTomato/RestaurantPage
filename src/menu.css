@@ -21,6 +21,14 @@ h2 {
   margin: var(--space-medium) 0;
 }
 
+h2 {
+  padding: 0 var(--space-small);
+
+  &::after {
+    content: ":";
+  }
+}
+
 h3 {
   text-decoration: underline double;
   margin-bottom: var(--space-small);
@@ -40,5 +48,4 @@ img {
 
 p {
   font-weight: 500;
-  width: clamp(50ch, 100%, 70ch);
 }
