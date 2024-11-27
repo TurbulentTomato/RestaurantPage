@@ -33,3 +33,5 @@ function toggleCurrentButton(target) {
   })
   target.classList.toggle("current-tab");
 }
+
+buttons[0].dispatchEvent(new Event("click"));
