@@ -1,0 +1,54 @@
+:root {
+  --skin-dark: #dca47c;
+  --skin-light: #ffd3b6;
+  --cream-white: #fcf8f3;
+  --green: #698474;
+  --space-small: 8px;
+  --space-medium: 15px;
+  --space-large: 25px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: serif;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  display: grid;
+  grid-template: 1fr/1fr;
+  background-color: var(--skin-dark);
+}
+
+nav {
+  display: grid;
+  place-content: end center;
+  grid-auto-flow: column;
+  gap: var(--space-medium);
+  background-color: var(--cream-white);
+  height: 100px;
+}
+
+#content {
+  padding: var(--space-large);
+}
+
+button {
+  font-size: 1.3rem;
+  width: calc(1.3rem * 4);
+  height: 2.8rem;
+  border: 3px solid var(--green);
+  border-bottom: none;
+  background-color: var(--cream-white);
+  border-radius: 1rem 1rem 0 0;
+  font-family: serif;
+}
+
+.current-tab {
+  background-color: var(--skin-dark);
+}
