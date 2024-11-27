@@ -28,12 +28,12 @@ export function renderMenu(content) {
   ];
   itemHeadings.forEach((itemHeading, index) => {
     items[index] = document.createElement("li");
-    items[index].appendChild(document.createElement("h2"));
+    items[index].appendChild(document.createElement("h3"));
     items[index].appendChild(document.createElement("img"));
     items[index].appendChild(document.createElement("p"));
   })
   items.map((item, index) => {
-    item.querySelector("h2").textContent = itemHeadings[index];
+    item.querySelector("h3").textContent = itemHeadings[index];
     item.querySelector("img").src = itemImages[index];
     item.querySelector("img").alt = itemImageAlts[index];
     item.querySelector("p").textContent = itemDescription[index];
