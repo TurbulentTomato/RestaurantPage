@@ -13,7 +13,8 @@ Our skilled chefs, trained in the art of Indian cooking, use only the freshest i
 Complement your meal with our carefully curated selection of Indian wines, craft beers, and traditional drinks like Mango Lassi or Masala Chai. Don’t forget to save room for dessert; our homemade Gulab Jamun and Saffron Kulfi are the perfect sweet finish to your meal.
 
 Whether you’re celebrating a special occasion, enjoying a family dinner, or simply exploring new flavors, Rasāsvādana Bhavanam promises an experience that delights your palate and ignites your senses. Join us for a taste of India that you’ll savor long after your visit.
-`
+`;
+  descriptionContainer.querySelector("p").classList.toggle("description");
   content.appendChild(restaurantHeading);
   content.appendChild(descriptionContainer);
 }

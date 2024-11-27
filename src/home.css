@@ -2,10 +2,11 @@ h1 {
   text-decoration: underline double;
 }
 
-p {
+p.description {
   border: 0.5rem double var(--green);
   border-radius: 1rem;
   background-color: var(--skin-light);
   padding: var(--space-medium);
   font-size: 1.2rem;
+  margin: 0 auto;
 }
