@@ -1,5 +1,10 @@
 import "./menu.css";
-import chholeBhaturePic from "./Chole_Bhature_At_Local_Street.jpg";
+import chholeBhaturePic from "./chhole-bhature.jpg";
+import dosaPic from "./masala-dosa.jpg";
+import shahiPaneerPic from "./shahi-paneer.jpg";
+import lassiPic from "./lassi.jpg";
+import jaljeeraPic from "./jaljeera.jpg";
+import chhachhPic from "./chhachh.jpg";
 export function renderMenu(content) {
   const menuHeading = document.createElement("h1");
   menuHeading.textContent = "Menu";
@@ -15,7 +20,7 @@ export function renderMenu(content) {
     "Jaljeera",
     "Chhachh"
   ];
-  const itemImages = [chholeBhaturePic, "", "", ""];
+  const itemImages = [chholeBhaturePic, dosaPic, shahiPaneerPic, lassiPic, jaljeeraPic, chhachhPic];
   const itemImageAlts = ["Chhole Bhautre photo", "Dosa photo", "Shahi paneer photo", "Lassi photo", "Jaljeera photo", "Chhachh photo"];
   const mainList = document.createElement("ul");
   const beverageList = document.createElement("ul");
