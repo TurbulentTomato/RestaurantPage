@@ -1,4 +1,4 @@
-import { renderHome, renderMenu } from "./barrelModule.js";
+import { renderHome, renderMenu, renderContact } from "./barrelModule.js";
 import "./reset.css";
 import "./base.css";
 
@@ -17,6 +17,9 @@ buttons[0].addEventListener("click", () => {
 });
 buttons[1].addEventListener("click", () => {
   renderMenu(content);
+});
+buttons[2].addEventListener("click", () => {
+  renderContact(content);
 });
 
 function clearContent() {
