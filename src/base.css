@@ -21,7 +21,7 @@ body {
   width: 100vw;
   min-height: 100vh;
   display: grid;
-  grid-template: 1fr/1fr;
+  grid-template: 100px auto/ 1fr;
   background-color: var(--skin-dark);
 }
 
@@ -51,4 +51,8 @@ button {
 
 .current-tab {
   background-color: var(--skin-dark);
+}
+
+p {
+  width: clamp(50ch, 100%, 70ch);
 }
